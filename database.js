@@ -42,7 +42,7 @@ let Book = [
     },
     {
       id: 2,
-      name: "Vickie Publications",
+      name: "Vickie-Publications",
       books: [],
     },
   ];
