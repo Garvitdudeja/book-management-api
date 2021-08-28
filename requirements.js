@@ -22,44 +22,38 @@ Book
     - to get all books ✅+++
     - to get specific books ✅+++
     - to get a list of books based on category ✅+++
-    - to get a list of books based on author -> [Task] 🔥
  - POST
-    - to add new book++
+    - to add new book+++
  - PUT
-    - to update book details
-    - to update/add new author
+    - to update book details+++
+    - to update/add new author+++
  - DELETE
     - delete a book+++
-    - delete an author from the book
+    - delete an author from the book+++
 Authors
  - GET
     - to get all authors ✅++++
     - to get specific author -> [Task] 🔥+++
-    - to get list of author based on a book
+    - to get list of author based on a book🔥+++
+    - to get a list of books based on author -> [Task] 🔥+++
  - POST
     - to add new author+++
-    - to update/add new book
+    - to update/add new book+++
  - PUT
-    - update author details
+    - update author details+++
  - DELETE
-    - delete an author
+    - delete an author+++
 Publication
  - GET
     - to get all publication -> [Task] 🔥+++
     - to get specific publication -> [Task] 🔥+++
-    - to get a list of publication based on a book. -> [Task] 🔥
+    - to get a list of publication based on a book. -> [Task] 🔥+++
  - POST
-    - Add new publication
+    - Add new publication+++
  - PUT
     - update publication 
-    - to update/add new book
+    - to update/add new book+++
  - DELETE
-    - delete a book from publication
-    - delete a publication
+    - delete a book from publication+++
+    - delete a publication+++
 */
-
-
-const bodyParser = require("body-parser");
-
-ourApp.use(bodyParser.urlencoded({ extended: true }));
-
